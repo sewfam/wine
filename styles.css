@@ -79,4 +79,23 @@ h1, h5 {
     width: 1200px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
     padding-top: 20px;
+    max-width: 100%;
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    section, footer {
+        padding: 10px;
+    }
+
+    /* Add more styles as needed */
 }
