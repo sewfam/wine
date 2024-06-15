@@ -57,8 +57,16 @@ footer {
     padding: 10px 0;
 }
 
+p {
+    text-align: center;
+}
+
 h1 {
     font-size: 5em; /* Adjust this value as needed */
+}
+
+h2 {
+    text-align: center;
 }
 
 h1, h5 {
