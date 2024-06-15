@@ -97,5 +97,10 @@ h1, h5 {
         padding: 10px;
     }
 
+    #header-image {
+        width: 100%;
+        height: auto;
+    }
+
     /* Add more styles as needed */
 }
