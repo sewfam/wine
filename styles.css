@@ -44,6 +44,7 @@ nav a:hover {
 }
 
 section {
+    box-sizing: border-box;
     margin: 20px 0;
     background-color: #fff5f5;
     padding: 20px;
@@ -66,11 +67,15 @@ h1 {
 }
 
 h2 {
+    font-family: 'Georgia', serif; /* Replace with the font you want */
+    font-size: 26px; /* Adjust as needed */
+    font-weight: bold; /* Adjust as needed */
     text-align: center;
+    margin-top: 10px;
 }
 
 h1, h5 {
-    margin: 0.005em 0; /* Adjust as needed */
+    margin: 0.1em 0; /* Adjust as needed */
 }
 
 #header-image {
@@ -78,7 +83,22 @@ h1, h5 {
     margin: auto;
     height: auto; /* Maintain aspect ratio */
     padding-top: 20px;
-    max-width: 100%;
+    width: 100%; /* Adjust as needed */
+}
+
+#landscape-image {
+    display: block;
+    margin: auto;
+    height: auto; /* Maintain aspect ratio */
+    width: 70%; /* Adjust as needed */
+}
+
+#grape-image {
+    display: block;
+    margin: auto;
+    height: auto; /* Maintain aspect ratio */
+    width: 23%; /* Adjust as needed */
+    padding-bottom: 30px; /* Adjust as needed */
 }
 
 
